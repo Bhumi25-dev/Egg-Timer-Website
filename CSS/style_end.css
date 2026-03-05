@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ff8b00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url('../Components/eggtimer!.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.thank-you-box{
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #ffd099;
+    margin: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thank-you-container{
+    font-size: px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ffc784;
+    border: 3px solid #a67233 ;
+    border-radius: 10px;
+    cursor: pointer;
+}
